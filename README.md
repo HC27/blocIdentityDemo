@@ -1,5 +1,5 @@
-#Bloc Identity
-##Set up guide
+# Block Identity
+## Set up guide
 ### Install node js (to get npm)
 - go to https://nodejs.org/en/ (for windows install)
 - for mc install homebrew:
@@ -28,15 +28,15 @@ In a browser go to:
 http://localhost:1880
 You should see node red running
 
-###Import the project
+### Import the project
 Go to menu > Import > clipboard
 Paste in the contents of blocIdentity.json
 
-###Get the bloc chain nodes
-Go to menu > Manage Palette > search 'blocchain'
+### Get the block chain nodes
+Go to menu > Manage Palette > search 'blockchain'
 Add the 'node-red-contrib-blockchain' nodes
 
-###Add local files
+### Add local files
 Find where node-red is installed (will be in <your home>/.node-red/ )
 Edit settings.js 
 Find and uncomment httpStatic, change to a folder you want to have your node-red images in e.g.
@@ -44,7 +44,7 @@ httpStatic: '<full path to your home>/.node-red/images/',
 Paste eyescanner.png into this folder (in /images)
 Restart node-red (in the terminal ctrl C and then 'node-red')
 
-##Start the app
+## Start the app
 Go to node-red http://localhost:1880
 Click deploy
 Go to http://localhost:1880/blocIdentityform
